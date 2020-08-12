@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Bambi Hambi</title>
+    <title>Rólunk</title>
 </head>
 
 <body>
@@ -58,6 +58,53 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <ul>
+        <li>
+            <a href="/index.html">Home</a>
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+    <h1>About</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+        </thead>
+        <caption>Opening hours</caption>
+        <tbody>
+            <tr>
+                <td>Monday-Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">Closed</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    &copy; 2020
+                </td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
